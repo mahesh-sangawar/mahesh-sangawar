@@ -1,4 +1,5 @@
-![Banner](https://via.placeholder.com/800x200/0F172A/ffffff?text=Mahesh+Sangawar+%7C+Cloud+Architect)
+<img src="./assets/banner.svg" alt="Mahesh Sangawar - Banner" width="100%">
+
 
 <div align="center">
 
