@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Mahesh Sangawar - Beautiful Animated Banner" width="100%">
+![Banner](https://via.placeholder.com/800x200/0F172A/ffffff?text=Mahesh+Sangawar+%7C+Cloud+Architect)
 
 <div align="center">
 
