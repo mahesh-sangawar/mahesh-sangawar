@@ -16,6 +16,12 @@ Currently building [**Tesserix**](https://tesserix.app), where I work on multi-t
 
 A multi-tenant commerce platform. A merchant signs up with an emailed link and gets a branded storefront and an admin dashboard on their own subdomain, with payments, shipping and tax handled per region. Roughly ten Go services and a set of Next.js apps, running on GKE with per-tenant isolation enforced in the data layer rather than left to convention.
 
+### [Tesserix Design System](https://github.com/tesserix/design-system)
+
+`@tesserix/web`, the component library every Tesserix product is built from. TypeScript, Tailwind and shadcn/ui principles, shipped for web and React Native so a product and its mobile counterpart stay recognisably the same thing. Versioned with Changesets and published for reuse across every app.
+
+[Documentation](https://docs.tesserix.app) &nbsp;·&nbsp; [Storybook](https://ui.tesserix.app)
+
 ### The platform underneath
 
 A single GKE Autopilot foundation running every Tesserix product: Knative for scale to zero, Istio for the mesh, Argo CD and Kargo for GitOps promotion, OpenFGA for relationship-based authorization, and Terraform for everything below that. Built deliberately cheap to run, because a platform you cannot afford to keep running is not a platform.
@@ -31,7 +37,6 @@ A single GKE Autopilot foundation running every Tesserix product: Knative for sc
 | [**sandboxctl**](https://github.com/tesserix/sandboxctl) | One-command local Kubernetes sandbox for macOS. kind, Argo CD, Kargo and Istio, ready to use. |
 | [**agentic-registry**](https://github.com/tesserix/agentic-registry) | Gateway-neutral registry for agentic artifacts: skills, tools, MCP servers and prompts. |
 | [**base-docker-images**](https://github.com/tesserix/base-docker-images) | Lean, non-root base images, rebuilt weekly against current CVEs. |
-| [**design-system**](https://github.com/tesserix/design-system) | Design system for web and React Native. TypeScript, Tailwind and shadcn/ui principles. [Docs](https://docs.tesserix.app) |
 | [**homebrew-tap**](https://github.com/tesserix/homebrew-tap) | Homebrew formulae for Tesserix command line tools. |
 
 ---
