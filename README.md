@@ -69,4 +69,4 @@ A single GKE Autopilot foundation running every product above: Knative for scale
 
 ## Elsewhere
 
-[tesserix.app](https://tesserix.app) &nbsp;·&nbsp; [Engineering blog](https://blog.tesserix.app) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/mahesh-sangawar) &nbsp;·&nbsp; AWS Certified Solutions Architect
+[tesserix.app](https://tesserix.app) &nbsp;·&nbsp; [Engineering blog](https://blog.tesserix.app) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/mahesh-sangawar-985a3214) &nbsp;·&nbsp; AWS Certified Solutions Architect
