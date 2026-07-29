@@ -32,7 +32,9 @@ Nutrition tracking for iOS and Android that does not feel like data entry. Log a
 
 `@tesserix/web`, the component library every Tesserix product is built from. TypeScript, Tailwind and shadcn/ui principles, shipped for web and React Native so a product and its mobile counterpart stay recognisably the same thing. Versioned with Changesets and published for reuse across every app.
 
-[Documentation](https://docs.tesserix.app) &nbsp;·&nbsp; [Storybook](https://ui.tesserix.app)
+Open source, and published for anyone to use.
+
+[Documentation](https://docs.tesserix.app) &nbsp;·&nbsp; [Storybook](https://ui.tesserix.app) &nbsp;·&nbsp; [Source](https://github.com/tesserix/design-system)
 
 ### The platform underneath
 
@@ -44,6 +46,7 @@ A single GKE Autopilot foundation running every product above: Knative for scale
 
 | Project | What it does |
 |---|---|
+| [**design-system**](https://github.com/tesserix/design-system) | `@tesserix/web`. Components for web and React Native, built on TypeScript, Tailwind and shadcn/ui. |
 | [**cloudnav**](https://github.com/tesserix/cloudnav) | Fast, keyboard-driven multi-cloud TUI for Azure, GCP and AWS. Drill through resources without leaving the terminal. |
 | [**reposhift**](https://github.com/tesserix/reposhift) | Azure DevOps to GitHub migration platform. Moves repos, work items and pipelines. |
 | [**sandboxctl**](https://github.com/tesserix/sandboxctl) | One-command local Kubernetes sandbox for macOS. kind, Argo CD, Kargo and Istio, ready to use. |
