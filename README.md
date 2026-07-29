@@ -6,15 +6,27 @@
 
 I build platforms end to end: the infrastructure underneath, the services on top of it, and the developer experience that makes both worth using. Most of my work sits where cloud architecture, Kubernetes and product engineering meet.
 
-Currently building [**Tesserix**](https://tesserix.app), where I work on multi-tenant commerce, agentic tooling, and the platform that runs it all.
+Currently building [**Tesserix**](https://tesserix.app), where three products share one platform.
 
 ---
 
-## What I am building
+## Products
 
-### [Mark8ly](https://mark8ly.com)
+### [Mark8ly](https://mark8ly.com) &nbsp;·&nbsp; commerce
 
-A multi-tenant commerce platform. A merchant signs up with an emailed link and gets a branded storefront and an admin dashboard on their own subdomain, with payments, shipping and tax handled per region. Roughly ten Go services and a set of Next.js apps, running on GKE with per-tenant isolation enforced in the data layer rather than left to convention.
+A multi-tenant commerce platform. A merchant signs up with an emailed link and gets a branded storefront and an admin dashboard on their own subdomain, with payments, shipping and tax handled per region. Roughly ten Go services and a set of Next.js apps, with per-tenant isolation enforced in the data layer rather than left to convention.
+
+### [HomeChef](https://fe3dr.com) &nbsp;·&nbsp; food delivery
+
+A three-sided marketplace: home chefs cook, drivers deliver, customers order. A Go and Gin backend, a Next.js marketing site, React operations consoles for vendors and delivery, and Expo mobile apps for each side of the market.
+
+### [Kora](https://github.com/tesserix/kora) &nbsp;·&nbsp; AI nutrition tracking
+
+Nutrition tracking for iOS and Android that does not feel like data entry. Log a meal by photographing it, describing it out loud, or just saying what you ate. The interesting problem is confidence: knowing when the model is sure enough to log silently and when it has to ask.
+
+---
+
+## The foundation
 
 ### [Tesserix Design System](https://github.com/tesserix/design-system)
 
@@ -24,7 +36,7 @@ A multi-tenant commerce platform. A merchant signs up with an emailed link and g
 
 ### The platform underneath
 
-A single GKE Autopilot foundation running every Tesserix product: Knative for scale to zero, Istio for the mesh, Argo CD and Kargo for GitOps promotion, OpenFGA for relationship-based authorization, and Terraform for everything below that. Built deliberately cheap to run, because a platform you cannot afford to keep running is not a platform.
+A single GKE Autopilot foundation running every product above: Knative for scale to zero, Istio for the mesh, Argo CD and Kargo for GitOps promotion, OpenFGA for relationship-based authorization, and Terraform for everything below that. Built deliberately cheap to run, because a platform you cannot afford to keep running is not a platform.
 
 ---
 
@@ -49,7 +61,7 @@ A single GKE Autopilot foundation running every Tesserix product: Knative for sc
 
 **Cloud** GCP, AWS, Azure
 
-**Backend** Gin, gRPC, PostgreSQL with CloudNativePG, Redis, Pub/Sub, OpenFGA, OpenTelemetry
+**Backend** Gin, gRPC, PostgreSQL with CloudNativePG, Redis, Pub/Sub, NATS, OpenFGA, OpenTelemetry
 
 **Frontend** Next.js, React, React Native with Expo, Tailwind CSS
 
